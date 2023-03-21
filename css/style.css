@@ -29,26 +29,31 @@
 }
 .card{
     display:flex;
-    height:80px;
+    height:85px;
     width: 300px;
     background-color: black;
     margin: 10px 16px 25px;
 }
 
 .image-card img{
-    width: 80px;
+    width: 85px;
 }
 .description-card h4{
-    
-    margin:10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    margin:10px 10px 3px;
     color:white;
 }
 .description-card span{
     color:aliceblue;
     margin: 0 10px 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
 }
 .description-card p{
-    color:blue;
-    margin: 0 10px ;
-
+    color:rgb(90, 193, 224);
+    margin: 5px 10px ;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
 }
