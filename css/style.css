@@ -33,6 +33,8 @@
     width: 300px;
     background-color: black;
     margin: 10px 16px 25px;
+    
+     box-shadow: 3px 2px 33px -9px #000000;
 }
 
 .image-card img{
