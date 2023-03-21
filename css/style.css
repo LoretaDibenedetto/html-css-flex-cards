@@ -13,7 +13,42 @@
     text-align: center;
     margin: 35px;
 }
-
+.title h1{
+    font-size: 29px;
+    font-family: 'Fredoka One', cursive;
+    color:#f74ea5;
+}
 .title p{
     margin: 40px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card{
+    display:flex;
+    height:80px;
+    width: 300px;
+    background-color: black;
+    margin: 10px 16px 25px;
+}
+
+.image-card img{
+    width: 80px;
+}
+.description-card h4{
+    
+    margin:10px;
+    color:white;
+}
+.description-card span{
+    color:aliceblue;
+    margin: 0 10px 10px;
+}
+.description-card p{
+    color:blue;
+    margin: 0 10px ;
+
 }
