@@ -8,25 +8,29 @@
 
 .container{
     margin: 0 auto;
-    width: 90%;
-    
+    width: 80%;
+    height:85vh;
 }
+
+
 /*header */
 .header{
     display:flex;
     justify-content: space-between;
     margin: 20px;
+    
 }
 
 .logo{
     font-family: 'Fredoka One', cursive;
     color:#d44e93;
     font-size: 20px;
+    
 }
 
 nav li{
     display:inline-block;
-    margin-right: 20px;
+    margin-left: 20px;
     font-family: 'Outfit', sans-serif;
     border:1px solid #a1a1a1;
     padding: 5px;
@@ -60,7 +64,7 @@ nav li:hover{
 .flex-container{
     display:flex;
     flex-wrap: wrap;
-  
+    justify-content: center;
 }
 .card{
     display:flex;
@@ -93,4 +97,14 @@ nav li:hover{
     margin: 5px 10px ;
     font-size: 14px;
     font-family: 'Outfit', sans-serif;
+}
+
+.footer{
+    font-family: 'Outfit', sans-serif;
+    height:200px;
+    line-height: 200px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(63, 63, 63) 0%, rgb(191, 189, 192) 49%, rgba(255,255,255,1) 100%);
+    color:rgb(0, 0, 0);
+    text-align: center;
 }
