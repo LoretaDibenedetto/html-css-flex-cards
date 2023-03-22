@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 .container{
@@ -9,6 +10,12 @@
     width: 1000px;
     
 }
+/*header */
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
 /*title */
 .title{
     text-align: center;
